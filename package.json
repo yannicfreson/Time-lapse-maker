@@ -1,0 +1,23 @@
+{
+  "name": "time-lapse-maker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yannicfreson/Time-lapse-maker.git"
+  },
+  "author": "Yannic Freson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yannicfreson/Time-lapse-maker/issues"
+  },
+  "homepage": "https://github.com/yannicfreson/Time-lapse-maker#readme",
+  "dependencies": {
+    "iohook": "^0.6.6",
+    "screenshot-desktop": "^1.12.2"
+  }
+}
