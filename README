@@ -1,0 +1,3 @@
+An npm program to make time-lapse videos of your screen.
+Customize the interval, format, output path and the framerate in the config.json file.
+Current hotkey to start and stop recording is SHIFT + F11
