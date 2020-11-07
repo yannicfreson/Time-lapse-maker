@@ -2,5 +2,5 @@
   "format": "png",
   "interval": "1000",
   "imgPath": "./output/frames",
-  "framerate": "30"
+  "framerate": "25"
 }
