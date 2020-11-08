@@ -1,6 +1,6 @@
 {
   "format": "jpg",
-  "interval": "800",
+  "interval": "2000",
   "imgPath": "./output/frames",
   "framerate": "25"
 }
