@@ -36,7 +36,7 @@ ioHook.on("keydown", (event) => {
     } else {
       clearInterval(intervalID);
       execute(
-        `ffmpeg -framerate ${config.framerate} -i ./output/frames/%06d.${config.format} ./output/timelapse.mp4`
+        `ffmpeg -framerate ${config.framerate} -i ${config.imgPath}/%06d.${config.format} ./output/timelapse.mp4`
       );
     }
   }
