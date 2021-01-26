@@ -21,6 +21,7 @@ function execute(command) {
 
 ioHook.start();
 ioHook.on("keydown", (event) => {
+  //the shortcut is: SHIFT + F11
   if (event.shiftKey === true && event.keycode === 87) {
     recording = !recording;
     console.log(`Recording = ${recording}`);
